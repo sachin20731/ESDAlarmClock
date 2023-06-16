@@ -16,4 +16,19 @@
         android:layout_height="444dp"
         android:layout_gravity="center" />
 
+
+    //banuja cording part
+
+
+    //add Toggle Button to set the alarm on or off
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:checked="false"
+        android:onClick="OnToggleClicked" />
+
 </LinearLayout>
